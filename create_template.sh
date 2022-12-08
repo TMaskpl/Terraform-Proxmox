@@ -1,7 +1,5 @@
-# installing libguestfs-tools only required once, prior to first run
 sudo apt update -y
 sudo apt install libguestfs-tools -y
-# remove existing image in case last execution did not complete successfully
 rm kinetic-server-cloudimg-amd64.img 
 wget https://cloud-images.ubuntu.com/kinetic/current/kinetic-server-cloudimg-amd64.img
 virt-customize -a kinetic-server-cloudimg-amd64.img --root-password password:newpassword1 --firstboot-install qemu-guest-agent
