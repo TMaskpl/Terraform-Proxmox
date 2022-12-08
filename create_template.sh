@@ -12,8 +12,6 @@ qm set 9000 --boot c --bootdisk scsi0
 qm set 9000 --ide2 local-lvm:cloudinit
 qm set 9000 --serial0 socket --vga serial0
 qm set 9000 --agent enabled=1
-qm resize 9000 vm-9000-disk-0 +15G
+qm resize 9000 scsi0 +15G
 qm template 9000
 rm kinetic-server-cloudimg-amd64.img
-echo "next up, clone VM, then expand the disk"
-echo "you also still need to copy ssh keys to the newly cloned VM"
