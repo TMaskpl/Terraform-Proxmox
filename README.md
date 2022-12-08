@@ -4,7 +4,7 @@
 
 ssh-keygen -t rsa -b 4096 # id_rsa_cloudinit
 
-### Tworzenie template Cloid-init Ubuntu 22.10
+### Tworzenie template Cloud-init Ubuntu 22.10
 
 ./create_template.sh
 
@@ -18,3 +18,7 @@ ssh-keygen -t rsa -b 4096 # id_rsa_cloudinit
 
 [How to deploy VMs in Proxmox with Terraform](https://austinsnerdythings.com/2021/09/01/how-to-deploy-vms-in-proxmox-with-terraform/)
 
+
+### Konfiguracja terraform
+
+- main.tf
