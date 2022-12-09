@@ -1,0 +1,11 @@
+variable "ssh_key" {
+  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDf1dA5IYlf8Wh5c6SP4A7zAT4G/yCFrmMYAs78Z7dr0hxczbWaLON7LLfk12jpQkRZEbUwJB563RfhCJ7839vcT34/7iiIwgVnZDOXEt+jyVS+q1xV9+KBWCjwrDfWapudpWiWBMOKPs9+p1uBi7ILri11zSFJ/MFw6AD40K8FEDEQO6/xrQPRSoOQhea0n4B5aLJ/0gfLTobRH8DNFhULCfS8XPOieMarFmR4b0v7TrxtgSjtDhy3VauDmMy3PVqhYcCBIxChglTgCeDQae0W3ZiMPi7DoWVAViNxbgzeVdu07EHJ65TcAVTQqjZ/VbPIfk04CKj2Szx9RBUWkA4gK0c7nwJWbJzL0gstEWEdlfZdqZu3yr6114EvLsOv7PujgtUT4+Kd5gdx0Jtf8DFDdCNUjXInhmE07XVnKFTMn1gqmEHcA5+W3IKzCRsZDf0j+ABcOgBgRfKUBN42nf+H7rR6nz/u1znm4dUd2ydKFrPeVzISf9OBdOm8+cVMhnDcQCEXEkk7hjiwZgUZ6kVI5bKZgUhT5CvmPBBTxS9YhC/iqV/gsrLW6KSlogmgkky5y3W1nYLGZAUI8t9XamUsDKwwC0yiU25YukTiyFSW+5yDUbx9mgsFTSETqL1g20lqEHBVQgl/sqVSZPvHUfasv2T+HjEIvdC5TF1GUNEI0Q== root@prod-pve"
+}
+
+variable "proxmox_host" {
+    default = "prod-pve"
+}
+
+variable "template_name" {
+    default = "ubuntu-2210-cloudinit-template"
+}
