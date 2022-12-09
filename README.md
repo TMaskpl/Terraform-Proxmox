@@ -22,3 +22,12 @@ ssh-keygen -t rsa -b 4096 # id_rsa_cloudinit
 ### Konfiguracja terraform
 
 - main.tf
+- vars.tf
+
+### Run
+
+terraform init
+
+terraform plan
+
+terraform apply
