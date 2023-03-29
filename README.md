@@ -31,3 +31,11 @@ terraform init
 terraform plan
 
 terraform apply
+
+
+### Links
+
+[VM](https://registry.terraform.io/providers/Telmate/proxmox/latest/docs/resources/vm_qemu)
+
+[LXC](https://registry.terraform.io/providers/Telmate/proxmox/latest/docs/resources/lxc)
+
