@@ -12,7 +12,7 @@ ssh-keygen -t rsa -b 4096 # id_rsa_cloudinit
 
 ./create_vm.sh
 
-## Teraform
+## Terraform
 
 ### Dodanie usera terraform do klastra Proxmox
 
